@@ -1,11 +1,11 @@
 {
     "meta": {
         "app_id": "org.example.same.identifier.manifest.package",
-        "app_title": "City Street Heritage",
+        "app_title": "GastoCity",
         "version": 1,
-        "updated": "2022-09-26",
+        "updated": "2023-03-09",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
-        "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
+        "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",
         "marketplace_url": ""
     },
     "content": {
@@ -24,39 +24,59 @@
             },
             "pois": [{
                     "id": "uniqueID",
-                    "lat": "50.8789629",
-                    "lon": "4.7013242",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "lat": "43.53944019787426 ",
+                    "lon": "-5.6473106750428961",
+                    "type": "Restaurante",
+                    "name": "Casa Carmen",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_2.jpg"
+                        "https://s2.ppllstatics.com/elcomercio/www/multimedia/201711/15/media/cortadas/casa-carmen-gijon-cachopo-k2XC-U50128471891Kc-624x385@El%20Comercio.jpg",
+                        "https://www.comerporahi.es/blog/wp-content/uploads/2018/11/CASA-CARMEN-BLOG.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
-                    "urls": [
-                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
-                        "https://example.org/mypoi"
+                    "description": "Cachopo tradicional en Gijón",
+                    "more": "Opción de cachopos gigantes",
+                    "urls": [ "https://www.google.com/maps/search/casa+carmen+gijon/@43.5385569,-5.648561,17.75z?hl=es",
+                    "https://www.elcomercio.es/gijon/cachopo-casa-carmen-gijon-20171115115630-nt.html"
                     ]
                 },
                 {
                     "id": "uniqueID-2",
-                    "lat": "50.9",
-                    "lon": "4.8",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "lat": "43.47103268540125",
+                    "lon": "-5.645823988527554",
+                    "type": "Restaurante",
+                    "name": "Casa Trabanco",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_2.jpg"
+                        "https://www.casatrabanco.com/ygrewheg/2018/11/sidreria-trabanco-002.jpg",
+                        "https://www.casatrabanco.com/ygrewheg/2019/01/sidreria-002.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "Casa Trabanco nace en 1983 cuando Samuel Trabanco y Toñi Olmo, deciden adentrarse en la aventura de la restauración casi al mismo tiempo en el que nuestra familia comenzaba a producir sidra en nuestro llagar de Lavandera.",
+                    "more": "Abierto desde 1983 en plena naturaleza y a escasos kilómetros de Gijón, Casa Trabanco te ofrece una auténtica experiencia gastro-sidrera. El comedor principal con nuestras características mesas compartidas al más puro estilo de chigre tradicional asturiano y la barra, en la que no falta un buen culín de Sidra Trabanco escanciada, hacen de nuestro restaurante un espacio ideal para que te sientas como en casa.",
                     "urls": [
-                        "https://nl.wikipedia.org/MyPoi",
-                        "https://example.org/mypoi"
+                        "https://www.casatrabanco.com/"
+                    ]
+                },
+                {
+                    "id": "uniqueID-3",
+                    "lat": "43.54396521642279",
+                    "lon": "-5.662837671552881",
+                    "type": "Tienda",
+                    "name": "Coalla gourmet",
+                    "images": [
+                        "https://drupal.gijon.es/sites/default/files/styles/imagen_galeria/public/2019-05/IMG_0314.jpg",
+                        "https://migijon.com/reconocimiento-nacional-a-la-gijonesa-coalla-gourmet/"
+                    ],
+                    "description": "La tienda está especializada en vinos, destilados, ya accesorios , así como en charcutería (productos ibéricos, quesos, caviar, Foie, etc.) y otra alimentación seleccionada.",
+                    "more": " Ha sido reconocida como una de las mejores tiendas de España..",
+                    "urls": [
+                        "https://coallagourmet.com/es/c/19-gijon",
+                        "https://www2.gijon.es/es/directorio/coalla-gourmet"
                     ]
                 }
             ]
         }
     }
 }
+
+
+
+
+
